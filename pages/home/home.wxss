@@ -1,0 +1,42 @@
+.page {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+.show_img {
+    width: 80%;
+  }
+
+.pic_block {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+.welcome_text {
+    font-size: 50rpx;
+    margin-top: -50rpx;
+}
+
+button {
+    border-radius:10px;
+    margin-top: 30rpx;
+    background-color: rgb(226, 226, 226);
+}
+
+.start_block {
+    display: flex;
+    flex-direction: row;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+.start_img {
+    margin-top: 70rpx;
+    margin-left: 50rpx;
+    width: 100rpx;
+    height: 100rpx;
+}

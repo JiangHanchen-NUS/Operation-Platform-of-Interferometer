@@ -1,0 +1,12 @@
+<view class="page">
+    <text>
+        f_mx=483, f_my=865, f_wx=80, f_wy=80
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step2.png" />
+    <view class="button_block">
+        <button bindtap="goto_step1" style="width: 300rpx;">返回上一步</button>
+        <button bindtap="goto_step3" style="width: 300rpx;">下一步</button>
+    </view>
+    
+    
+</view>

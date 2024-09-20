@@ -1,0 +1,7 @@
+<view class="page">
+    <text>
+        
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step9.png" />
+    <button bindtap="goto_step10" style="width: 300rpx;margin-top: 30rpx;">下一步</button>
+</view>

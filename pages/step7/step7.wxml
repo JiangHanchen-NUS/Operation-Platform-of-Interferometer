@@ -1,0 +1,27 @@
+<view class="page">
+    <text>
+        xx0=1, yy0=1, xx1=991, yy1=195
+    </text>
+    <text>
+        x0=269, y0=295, x1=951, y1=480
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step8_1.png" />
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step8_2.png" style="width: 80%;" class="show_img" />
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step8_3.png" style="width: 80%;height: 220rpx;margin-top: 30rpx;" class="show_img" />
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step8_4.png" style="width: 80%;height: 180rpx;margin-top: 30rpx;" class="show_img" />
+    <view class="button_block">
+        <button bindtap="goto_step6" style="width: 300rpx;">返回上一步</button>
+    </view>
+    <text class="hint_text">
+        请输入相位因子(e-5)
+    </text>
+    <view class="input_block">
+        <text>Factor_x</text>
+        <input class="input1" value="-1.4"/>
+    </view>
+    <view class="input_block">
+        <text>Factor_y</text>
+        <input class="input1" value="0.0"/>
+    </view>
+    <button bindtap="goto_step8" style="width: 300rpx;">下一步</button>
+</view>

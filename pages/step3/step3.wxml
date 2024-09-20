@@ -1,0 +1,11 @@
+<view class="page">
+    <text class="hint_text">
+        成功获取物面强度分布
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step3.png" />
+    <text>
+        输入重建距离(单位:米):
+    </text>
+    <input class="input1" value="-0.095"/>
+    <button bindtap="goto_step4" style="width: 300rpx;">下一步</button>
+</view>

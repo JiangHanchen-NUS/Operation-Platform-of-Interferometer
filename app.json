@@ -1,0 +1,24 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/step1/step1",
+        "pages/step2/step2",
+        "pages/step3/step3",
+        "pages/step4/step4",
+        "pages/step5/step5",
+        "pages/step6/step6", 
+        "pages/step7/step7",
+        "pages/step8/step8",
+        "pages/step9/step9",
+        "pages/step10/step10",
+        "pages/step11/step11"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "寻光觅影",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

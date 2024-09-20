@@ -1,0 +1,16 @@
+<view class="page">
+    <text class="welcome_text">
+        交互式紧凑型
+    </text>
+    <text class="welcome_text">
+        动态全内反射数字全息干涉仪
+    </text>
+    <text class="welcome_text">
+        操作平台
+    </text>
+    <button bindtap="goto_step1">开始测量</button>
+    <!-- <view class="pic_block"> -->
+        <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/home_pic_1.png" class="show_img" style="margin-top: 80rpx; width: 65%; height: 400rpx;" />
+        <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/home_pic_2.png" style="height: 800rpx;margin-top: -150rpx;" class="show_img"  />
+    <!-- </view> -->
+</view>

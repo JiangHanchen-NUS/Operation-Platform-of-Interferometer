@@ -1,0 +1,48 @@
+<view class="page">
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step6.png" class="show_img" />
+    <text class="hint_title">
+        选择需要校正的样品背景区域
+    </text>
+    <text class="hint_text">
+        请输入矩形左上和右下顶点坐标：
+    </text>
+    <view class="input_block">
+        <text>xx0</text>
+        <input class="input1" type="digit" value="1"/>
+    </view>
+    <view class="input_block">
+        <text>yy0</text>
+        <input class="input1" type="digit" value="1"/>
+    </view>
+    <view class="input_block">
+        <text>xx1</text>
+        <input class="input1" type="digit" value="991"/>
+    </view>
+    <view class="input_block">
+        <text>yy1</text>
+        <input class="input1" type="digit" value="195"/>
+    </view>
+    <text class="hint_title">
+        选择需要计算的样品区域
+    </text>
+    <text class="hint_text">
+        请输入矩形左上和右下顶点坐标：
+    </text>
+    <view class="input_block">
+        <text>x0</text>
+        <input class="input1" type="digit" value="269"/>
+    </view>
+    <view class="input_block">
+        <text>y0</text>
+        <input class="input1" type="digit" value="295"/>
+    </view>
+    <view class="input_block">
+        <text>x1</text>
+        <input class="input1" type="digit" value="951"/>
+    </view>
+    <view class="input_block">
+        <text>y1</text>
+        <input class="input1" type="digit" value="480"/>
+    </view>
+    <button bindtap="goto_step7">预览结果</button>
+</view>

@@ -1,0 +1,44 @@
+.page {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+.hint_text{
+    font-size: 40rpx;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}
+
+.hint_title {
+    font-size: 40rpx;
+    margin-top: 20rpx;
+    margin-bottom: -20rpx;
+}
+
+.input_block {
+    display: flex;
+    flex-direction: row;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+.show_img {
+  width: 80%;
+}
+
+.input1 {
+    height: 35px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    /*设置边框及圆角*/
+    margin-top: 10px;
+    width: 60%;
+}
+
+button {
+    border-radius:10px;
+    margin-top: 30rpx;
+    background-color: rgb(226, 226, 226);
+}

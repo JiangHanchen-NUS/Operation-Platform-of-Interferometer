@@ -1,0 +1,40 @@
+.page {
+    display: flex;
+    flex-direction: column;/*规定主轴方向*/
+    justify-content: space-around;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+}
+
+text {
+    font-size: 40rpx;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}
+
+.show_img {
+    width: 100%;
+    margin-top: 30rpx;
+}
+
+.button_block {
+    display: flex;
+    flex-direction: row;/*规定主轴方向*/
+    justify-content: space-evenly;/*主轴排列方式*/
+    align-items: center;/*副轴排列方式*/
+    width: 100%;
+}
+
+button {
+    border-radius:10px;
+    margin-top: 30rpx;
+    background-color: rgb(226, 226, 226);
+}
+
+.input1 {
+    height: 35px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    /*设置边框及圆角*/
+    margin-top: 10px;
+    width: 60%;
+}

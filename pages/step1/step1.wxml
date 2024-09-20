@@ -1,0 +1,36 @@
+<view class="page">
+    <text class="hint_text">
+        成功获取全息图频谱强度信息
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step1.png" class="show_img" />
+    <text class="hint_title">
+        选择频谱区域
+    </text>
+    <text class="hint_text">
+        请输入频谱中心点坐标：
+    </text>
+    <view class="input_block">
+        <text class="input_text">f_mx</text>
+        <input class="input1" type="digit" value="483"/>
+    </view>
+    <view class="input_block">
+        <text class="input_text">f_my</text>
+        <input class="input1" type="digit" value="865"/>
+    </view>
+    <text class="hint_text">
+            请输入频率宽度：
+    </text>
+    <view class="input_block">
+        <text>
+            f_wx
+        </text>
+        <input class="input1" type="digit" value="80"/>
+    </view>
+    <view class="input_block">
+        <text>
+            f_wy
+        </text>
+        <input class="input1" type="digit" value="80"/>
+    </view>
+    <button bindtap="goto_step2">预览结果</button>
+</view>

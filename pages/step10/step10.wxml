@@ -1,0 +1,13 @@
+<view class="page">
+    <text>
+        
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step10_1.png" />
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step10_2.png" style="height: 175rpx;" />
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step10_3.png" style="height:175rpx;" />
+    <view class="button_block">
+        <button bindtap="goto_step11" style="width: 300rpx;">求解折射率</button>
+    </view>
+    
+    
+</view>

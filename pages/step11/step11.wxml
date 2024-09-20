@@ -1,0 +1,8 @@
+<view class="page">
+    <text>
+        样品折射率为：n = 1.344220
+    </text>
+    <view class="button_block">
+        <button bindtap="goto_home" style="width: 300rpx;">退出</button>
+    </view>
+</view>

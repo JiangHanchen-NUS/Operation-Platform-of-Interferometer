@@ -1,0 +1,12 @@
+<view class="page">
+    <text>
+        成功获取相位校正后的样品信息
+    </text>
+    <image src="cloud://npucat-5g1eq1ck61a0f767.6e70-npucat-5g1eq1ck61a0f767-1312737187/光电设计/step8.png" />
+    <view class="button_block">
+        <button bindtap="goto_step7" style="width: 300rpx;">返回上一步</button>
+        <button bindtap="goto_step9" style="width: 300rpx;">下一步</button>
+    </view>
+    
+    
+</view>
